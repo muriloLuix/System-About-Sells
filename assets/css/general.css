@@ -2,11 +2,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Style Scroll */
@@ -87,8 +89,9 @@ li:active {
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 300px;
+  position: static;
 }
 
 /* Main Styles */
@@ -96,9 +99,10 @@ li:active {
 .background-main {
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   animation: fadeIn 2s ease forwards;
   z-index: -1;
+  position: absolute;
 }
 
 @keyframes fadeIn {
@@ -115,7 +119,7 @@ li:active {
   font-weight: 200;
   font-size: 50px;
   margin-left: 5rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   animation: fadeInT 2s ease forwards;
   width: 50%;
 }
@@ -134,7 +138,7 @@ li:active {
   font-size: 55px;
 }
 
-.content{
+.content {
   width: 50%;
 }
 
@@ -148,9 +152,14 @@ li:active {
   opacity: 100%;
 }
 
-.sub-title span{
+.sub-title{
+  margin-top: 2em;
+}
+
+.sub-title span {
   color: #a159e0;
   font-size: 70px;
+  line-height: 20px;
 }
 
 @keyframes fadeInP {
@@ -172,11 +181,18 @@ li:active {
   animation: fadeInP 2s ease forwards;
   position: absolute;
   margin-left: 5.2em;
-  margin-top: 5em;
+  margin-top: 8em;
 }
 
 .link_wrapper {
   position: relative;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .btn-a {
@@ -229,12 +245,57 @@ li:active {
   right: -25%;
 }
 
-
 .logo-praia {
   width: 40em;
   height: 30em;
   position: absolute;
-  left: 60rem;
-  bottom: 5em;
   z-index: 999;
+  margin-right: 14em;
+  animation: fadeInP 2s ease forwards;
 }
+
+/* About Styles */
+
+
+.container-about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about {
+  height: 50vh;
+  width: 100vw;
+  background-color: #a159e0;
+  margin-top: 499px;
+  position: relative;
+}
+
+.about-h1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  width: 14em;
+  position: absolute;
+  margin-top: 1.8em;
+  margin-left: 5%;
+}
+
+.div-p{
+  margin-top: 14em;
+  margin-right: 17em;
+  width: 40%;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-2 {
+  height: 50vh; 
+  width: 100vw;
+  background-color: #ff0000; 
+  position: relative;
+  margin-top: 40em;
+}
+
+
+
+
