@@ -15,19 +15,20 @@
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
-  right: 20px; 
+  right: -100px; /* Inicialmente fora da tela */
   z-index: 9999;
-}
-.whatsapp-icon img {
-  width: 60px; 
-  height: auto;
-  transition: 0.3s;
+  transition: right 0.5s ease; /* Transição suave para a animação */
 }
 
-.whatsapp-icon img:hover{
-  cursor: pointer;
+.whatsapp-icon img {
+  width: 60px;
+  height: auto;
+}
+
+.whatsapp-icon:hover img {
   transform: scale(1.05);
 }
+
 
 /* Style Scroll */
 
