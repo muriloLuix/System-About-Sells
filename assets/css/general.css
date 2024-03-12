@@ -23,6 +23,7 @@
 .whatsapp-icon img {
   width: 60px;
   height: auto;
+  transition: .3s;
 }
 
 .whatsapp-icon:hover img {
