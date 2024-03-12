@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
 * {
   margin: 0;
@@ -30,6 +31,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a159e0;
 }
+
 ::-webkit-scrollbar-thumb:focus {
   border-radius: 20px;
 }
@@ -109,6 +111,7 @@ li:active {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 0.3;
   }
@@ -128,6 +131,7 @@ li:active {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -166,6 +170,7 @@ li:active {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -240,7 +245,7 @@ li:active {
   color: #a159e0;
 }
 
-.btn-a:hover + .icon {
+.btn-a:hover+.icon {
   border: 3px solid #a159e0;
   right: -25%;
 }
@@ -277,6 +282,7 @@ li:active {
   position: absolute;
   margin-top: 2.5%;
   margin-left: 4%;
+  animation: fadeInP 2s ease forwards;
 }
 
 .div-p {
@@ -284,9 +290,9 @@ li:active {
   margin-right: 13em;
   width: 50%;
   text-align: justify;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 20px;
+  animation: fadeInP 2s ease forwards;
 }
 
 /* section-2 styles */
@@ -304,14 +310,16 @@ li:active {
   padding-top: 5%;
   font-weight: 400;
   margin-top: 0;
+  animation: fadeInP 2s ease forwards;
 }
 
 .sec-subtitle {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Cabin", sans-serif;
   margin-left: 4%;
   width: 25%;
   text-align: justify;
+  animation: fadeInP 2s ease forwards;
+  font-size: 17px;
 }
 
 .dev-sea {
@@ -332,22 +340,33 @@ li:active {
   margin-top: 4%;
 }
 
+.container_imgs-general img{
+  transition: 0.3s;
+}
+
+
 .pc,
 .atendment,
 .clock,
 .lamp {
   flex-basis: calc(25% - 20px);
   margin-bottom: 20px;
+  animation: fadeInP 2s ease forwards;
 }
 
 .pc img,
 .atendment img,
 .clock img,
 .lamp img {
-  width: 350px;
+  width: 79%;
   height: auto;
   border-radius: 20px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  animation: fadeInP 2s ease forwards;
+}
+
+.container_imgs-general img:hover{
+  transform: scale(1.05);
 }
 
 .pc h1,
@@ -355,7 +374,8 @@ li:active {
 .clock h1,
 .lamp h1 {
   font-family: "Space Grotesk", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
+  animation: fadeInP 2s ease forwards;
 }
 
 .pc p,
@@ -364,6 +384,10 @@ li:active {
 .lamp p {
   text-align: justify;
   width: 79%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-family: "Cabin", sans-serif;
+  font-size: 17px;
+  animation: fadeInP 2s ease forwards;
+  letter-spacing: 0.5px;
 }
+
