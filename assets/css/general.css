@@ -300,13 +300,13 @@ li:active {
   font-weight: 400;
   width: 14em;
   position: absolute;
-  margin-top: 2.5%;
+  margin-top: 2%;
   margin-left: 4%;
   animation: fadeInP 2s ease forwards;
 }
 
 .div-p {
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: 13em;
   width: 50%;
   text-align: justify;
@@ -400,6 +400,7 @@ li:active {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
   animation: fadeInP 2s ease forwards;
+  padding-top: 5%;
 }
 
 .pc p,
@@ -413,6 +414,7 @@ li:active {
   font-size: 17px;
   animation: fadeInP 2s ease forwards;
   letter-spacing: 0.5px;
+  padding-top: 3%;
 }
 
 /* section-3 styles */
