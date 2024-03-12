@@ -319,11 +319,12 @@ li:active {
 
 .section-2 {
   height: 100%;
-  min-height: 100vh; /* Garante que a altura da seção seja pelo menos igual à altura da viewport */
+  min-height: 100vh;
   width: 100vw;
   background-color: #fff;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding-bottom: 5.3%;
 }
 
 
@@ -417,7 +418,7 @@ li:active {
 /* section-3 styles */
 
 .section-3 {
-  height: 30vh; /* Ou qualquer outra altura desejada, relativa à .section-2 */
+  height: 30vh;
   width: 100vw;
   background-color: #FFC0CB;
   position: relative;
