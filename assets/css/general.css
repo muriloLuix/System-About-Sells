@@ -15,9 +15,9 @@
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
-  right: -100px; /* Inicialmente fora da tela */
+  right: -100px;
   z-index: 9999;
-  transition: right 0.5s ease; /* Transição suave para a animação */
+  transition: right 0.5s ease;
 }
 
 .whatsapp-icon img {
