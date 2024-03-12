@@ -12,6 +12,23 @@
   scroll-behavior: smooth;
 }
 
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; 
+  z-index: 9999;
+}
+.whatsapp-icon img {
+  width: 60px; 
+  height: auto;
+  transition: 0.3s;
+}
+
+.whatsapp-icon img:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 /* Style Scroll */
 
 ::-webkit-scrollbar {
