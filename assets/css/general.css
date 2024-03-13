@@ -576,7 +576,7 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
   }
   .content p{
     margin-left: 0;
@@ -649,7 +649,6 @@ body {
     justify-content: center;
     align-items: center; 
     flex-direction: column; 
-    margin: 4% auto; 
     max-width: 90%; 
 }
 
