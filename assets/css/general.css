@@ -505,6 +505,7 @@ body {
   
   html, body, main{
     max-width: 100%;
+    overflow-x: hidden;
   }
 
   /* Menu Mobile Style */
