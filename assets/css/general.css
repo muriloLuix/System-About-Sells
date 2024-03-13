@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 * {
   margin: 0;
@@ -215,6 +216,8 @@ body {
   animation: fadeInT 2s ease forwards;
   width: 50%;
 }
+
+
 
 @keyframes fadeInT {
   0% {
@@ -498,6 +501,9 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
+  
+  /* Menu Mobile Style */
+
   .menu-container {
     display: none;
   }
@@ -512,10 +518,74 @@ body {
     display: block;
   }
 
-  /* Adicionado */
   .menu-item {
     margin-right: 0;
     margin-bottom: 10px;
     font-size: 20px;
+  }
+
+  .menu-mobile nav ul li a{
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  /* Main Style */
+
+  .div-title{
+
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .title{
+    margin: 0;
+    font-size: 24pt;
+    padding-bottom: 6%;
+  }
+
+
+  .container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    margin-top: 12%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+  .logo-praia{
+    display: none;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .content p{
+    margin-left: 0;
+  }
+  .wrapper{
+    margin: 0;
+    padding-top: 4%;
+  }
+
+  .btn-a:active {
+    transform: scale(0.09);
+  }
+  .icon {
+    display: none;
+  }
+  /* Style About */
+
+  .about{
+    height: 70vh;
+  }
+
+  .div-p{
+    margin: 0 auto;
+    width: 70%;
   }
 }
