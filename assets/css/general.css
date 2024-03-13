@@ -584,8 +584,25 @@ body {
     height: 70vh;
   }
 
-  .div-p{
-    margin: 0 auto;
+  .container-about {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-h1,
+  .div-p {
     width: 70%;
+    margin: 0 auto;
+  }
+
+  .div-p {
+    margin-top: 25%;
+  }
+
+  .about-h1{
+    margin: 0 auto;
   }
 }
