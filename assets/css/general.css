@@ -431,8 +431,8 @@ body {
 
 .container_imgs-general {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin-left: 3.5%;
   margin-top: 4%;
 }
@@ -449,6 +449,7 @@ body {
   flex-basis: calc(25% - 20px);
   margin-bottom: 20px;
   animation: fadeInP 2s ease forwards;
+
 }
 
 .pc img,
@@ -553,9 +554,17 @@ body {
     justify-content: center; 
     align-items: center;
 }
-  .logo-praia{
-    display: none;
-  }
+.logo-praia {
+  width: 30em;
+  height: auto;
+  position: absolute;
+  z-index: 999;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: 2s ease 0s 1 normal forwards running fadeInP;
+}
+
   .content{
     display: flex;
     align-items: center;
@@ -581,28 +590,98 @@ body {
   /* Style About */
 
   .about{
-    height: 70vh;
+    height: 75vh;
   }
 
   .container-about {
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .div-h1,
   .div-p {
     width: 70%;
     margin: 0 auto;
+    text-align: center;
+  }
+
+  .div-h1 {
+    margin-top: 10%;
+    position: relative; 
+    font-size: 13.5pt;
+  }
+
+  .about-h1 {
+    margin: 0;
+    position: absolute; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
   }
 
   .div-p {
     margin-top: 25%;
   }
 
-  .about-h1{
-    margin: 0 auto;
+  /* O que oferecemos Stlye */
+
+  .sec-title{
+    font-size: 23pt;
+    text-align: center;
   }
+
+  .sec-subtitle{
+    width: 73%;
+    font-size: 14pt;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .container_imgs-general {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    margin: 4% auto; 
+    max-width: 90%; 
+}
+
+.pc,
+.atendment,
+.clock,
+.lamp {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pc img,
+.atendment img,
+.clock img,
+.lamp img {
+  width: 95%;
+  height: auto;
+}
+
+.pc p,
+.atendment p,
+.clock p,
+.lamp p {
+  font-size: 14pt;
+  width: 94%;
+}
+
+.pc h1,
+.atendment h1,
+.clock h1,
+.lamp h1 {
+  font-size: 25pt;
+}
+
 }
