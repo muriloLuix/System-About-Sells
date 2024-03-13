@@ -13,6 +13,7 @@
   scroll-behavior: smooth;
 }
 
+
 .whatsapp-icon {
   position: fixed;
   bottom: 20px;
@@ -69,6 +70,7 @@
 
 body {
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* Header Styles */
