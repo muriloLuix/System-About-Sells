@@ -71,11 +71,6 @@
 body {
   overflow-x: hidden;
 }
-
-html{
-  max-width: 100%;
-}
-
 /* Header Styles */
 
 .menu-desktop {
@@ -508,6 +503,10 @@ html{
 
 @media screen and (max-width: 1080px) {
   
+  html, body, main{
+    max-width: 100%;
+  }
+
   /* Menu Mobile Style */
 
   .menu-container {
