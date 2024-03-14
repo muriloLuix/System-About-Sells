@@ -74,14 +74,9 @@
 
 /* Body Styles */
 
-html,main,body {
+body {
   overflow-x: hidden;
 }
-
-main,body{
-  overflow-y: hidden;
-}
-
 /* Header Styles */
 
 .menu-desktop {
@@ -344,7 +339,6 @@ main,body{
 
 .btn-a:hover+.icon {
   border: 3px solid #a159e0;
-  right: -25%;
 }
 
 .logo-praia {
