@@ -78,7 +78,7 @@ html,main,body {
   overflow-x: hidden;
 }
 
-main{
+main,body{
   overflow-y: hidden;
 }
 
