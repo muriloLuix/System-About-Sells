@@ -534,6 +534,7 @@ main {
 .content-3 p {
   width: 58%;
   padding-left: 9%;
+  padding-top: 4%;
   text-align: justify;
 }
 
@@ -665,7 +666,7 @@ main {
   height: 80vh;
   width: 100vw;
   background-color: #F6F5F5;
-  position: absolute;
+  position: relative;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 30px,
     rgba(0, 0, 0, 0.12) 0px -6px 20px,
     rgba(0, 0, 0, 0.12) 0px 2px 4px,
@@ -772,7 +773,7 @@ main {
   /* Style About */
 
   .about {
-    height: 75vh;
+    height: 95vh;
   }
 
   .container-about {
@@ -804,7 +805,7 @@ main {
   }
 
   .div-p {
-    margin-top: 25%;
+    margin-top: 43%;
   }
 
   /* O que oferecemos Stlye */
@@ -870,4 +871,52 @@ main {
   .lamp h1 {
     font-size: 25pt;
   }
+
+  .content-3 h1{
+    width: 100%;
+    text-align: center;
+    padding: 4%;
+  }
+
+  .content-3 p{
+    width: 92%;
+  }
+
+  .btn-dark{
+    width: 84%;
+  }
+
+
+  .section-3{
+    height: 100vh;
+    position: relative;
+  }
+  .container-3 {
+    flex-direction: column;
+  }
+
+  .content-3 {
+    width: 100%;
+  }
+
+  .card {
+    position: relative;
+    width: 100%; 
+    margin-top: 20px; 
+    margin-right: 0; 
+    z-index: 1;
+  }
+
+  .section-4 {
+    height: 80vh;
+    width: 100vw;
+    background-color: #F6F5F5;
+    position: relative; 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 30px 30px,
+      rgba(0, 0, 0, 0.12) 0px -6px 20px,
+      rgba(0, 0, 0, 0.12) 0px 2px 4px,
+      rgba(0, 0, 0, 0.17) 0px 6px 7px,
+      rgba(0, 0, 0, 0.09) 0px -2px 3px;
+  }
+  
 }
