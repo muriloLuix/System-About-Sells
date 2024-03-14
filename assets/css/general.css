@@ -74,8 +74,9 @@
 
 /* Body Styles */
 
-body {
-  overflow-x: hidden;
+main {
+  overflow: hidden;
+  max-width: 100%;
 }
 /* Header Styles */
 
