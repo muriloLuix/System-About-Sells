@@ -55,6 +55,14 @@
   border-radius: 20px;
 }
 
+.about,
+.section-2,
+.section-3,
+.section-4{
+  max-width: 100%;
+}
+
+
 /* Black Line */
 
 .top {
