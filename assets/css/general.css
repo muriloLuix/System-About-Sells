@@ -74,7 +74,7 @@
 
 /* Body Styles */
 
-body {
+html,main,body {
   overflow-x: hidden;
 }
 
