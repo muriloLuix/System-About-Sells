@@ -78,6 +78,10 @@ html,main,body {
   overflow-x: hidden;
 }
 
+main{
+  overflow-y: hidden;
+}
+
 /* Header Styles */
 
 .menu-desktop {
