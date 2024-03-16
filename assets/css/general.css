@@ -849,12 +849,12 @@ path.two {
   margin: 0;
 }
 
-.socialmedia li {
+.social-media li {
   display: flex;
   margin-top: 6%;
 }
 
-.copyright {
+.social-media a {
   text-decoration: none;
   font-weight: bold;
   padding: 8px 12px;
@@ -866,17 +866,17 @@ path.two {
   opacity: 0.8;
 }
 
-.linkedin {
+.social-media .linkedin {
   background-color: #0077B5;
   color: #ffffff;
 }
 
-.instagram {
+.social-media .instagram {
   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   color: #ffffff;
 }
 
-.youtube {
+.social-media .youtube {
   background-color: #FF0000;
   color: #ffffff;
 }
