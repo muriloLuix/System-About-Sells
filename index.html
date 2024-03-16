@@ -1,221 +1,338 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/general.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon-ds.png"
+      type="image/x-icon"
+    />
+    <script src="assets/js/animation.js" defer></script>
+    <script src="assets/js/tab.js" defer></script>
+    <script src="assets/js/menu.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <title>| DevSea & Co.</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/general.css" />
-  <link rel="shortcut icon" href="assets/img/favicon-ds.png" type="image/x-icon" />
-  <script src="assets/js/animation.js" defer></script>
-  <script src="assets/js/tab.js" defer></script>
-  <script src="assets/js/menu.js" defer></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
-  <title>| DevSea & Co.</title>
-</head>
-
-<body>
-  <a id="whatsapp-icon" class="whatsapp-icon"
-    href="https://wa.me/5541995402028?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20umas%20informa%C3%A7%C3%B5es%20importantes%20sobre%20os%20seus%20servi%C3%A7os."
-    target="_blank">
-    <img src="assets/img/whatsappPurple.png" alt="WhatsApp" />
-  </a>
-  <span class="top"> </span>
-  <header>
-    <nav class="menu-desktop">
-      <div class="logo-container">
-        <img class="logo" src="assets/img/devsea-logo.png" alt="Logo" />
-      </div>
-      <div class="menu-container">
-        <div class="menu-item"><a href="#">Início</a></div>
-        <div class="menu-item"><a href="#product">Produto</a></div>
-        <div class="menu-item"><a href="#plan">Planos</a></div>
-        <div class="menu-item"><a href="#">Contato</a></div>
-        <div class="menu-item"><a href="#about">Sobre</a></div>
-      </div>
-      <div class="btn-abrir-menu" id="btn-menu">
-        <i class="bi bi-list"></i>
-      </div>
-    </nav>
-
-    <div class="menu-mobile" id="menu-mobile">
-      <div class="btn-fechar">
-        <i class="bi bi-x-lg"></i>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#product">Produto</a></li>
-          <li><a href="#plan">Planos</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#about">Sobre</a></li>
-        </ul>
+  <body>
+    <a
+      id="whatsapp-icon"
+      class="whatsapp-icon"
+      href="https://wa.me/5541995402028?text=Ol%C3%A1!%20Gostaria%20de%20tirar%20umas%20informa%C3%A7%C3%B5es%20importantes%20sobre%20os%20seus%20servi%C3%A7os."
+      target="_blank"
+    >
+      <img src="assets/img/whatsappPurple.png" alt="WhatsApp" />
+    </a>
+    <span class="top"> </span>
+    <header>
+      <nav class="menu-desktop">
+        <div class="logo-container">
+          <img class="logo" src="assets/img/devsea-logo.png" alt="Logo" />
+        </div>
+        <div class="menu-container">
+          <div class="menu-item"><a href="#">Início</a></div>
+          <div class="menu-item"><a href="#product">Produto</a></div>
+          <div class="menu-item"><a href="#plan">Planos</a></div>
+          <div class="menu-item"><a href="#contact">Contato</a></div>
+          <div class="menu-item"><a href="#about">Sobre</a></div>
+        </div>
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
       </nav>
-    </div>
-    <div class="overlay-menu" id="overlay-menu"></div>
-  </header>
 
-  <main>
-    <img class="background-main" src="assets/img/background-main-fotor-20240308172947.png" alt="" />
-    <div class="div-title">
-      <h1 class="title">
-        Comunique<span>.</span><br />Coopere<span>.</span>Inove<span>.</span>
-      </h1>
-    </div>
-    <div class="content">
-      <p class="sub-title">
-        Nos dá DevSea & Co<span>.</span> oferecemos um jeito eficaz de
-        gerenciar seus projetos.
-      </p>
-    </div>
-    <div class="container">
-      <div class="wrapper">
-        <div class="link_wrapper">
-          <a class="btn-a" href="#plan">Começar</a>
-          <div class="icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
-              <path
-                d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z" />
-            </svg>
+      <div class="menu-mobile" id="menu-mobile">
+        <div class="btn-fechar">
+          <i class="bi bi-x-lg"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#product">Produto</a></li>
+            <li><a href="#plan">Planos</a></li>
+            <li><a href="#contact">Contato</a></li>
+            <li><a href="#about">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="overlay-menu" id="overlay-menu"></div>
+    </header>
+
+    <main>
+      <img
+        class="background-main"
+        src="assets/img/background-main-fotor-20240308172947.png"
+        alt=""
+      />
+      <div class="div-title">
+        <h1 class="title">
+          Comunique<span>.</span><br />Coopere<span>.</span>Inove<span>.</span>
+        </h1>
+      </div>
+      <div class="content">
+        <p class="sub-title">
+          Nos dá DevSea & Co<span>.</span> oferecemos um jeito eficaz de
+          gerenciar seus projetos.
+        </p>
+      </div>
+      <div class="container">
+        <div class="wrapper">
+          <div class="link_wrapper">
+            <a class="btn-a" href="#plan">Começar</a>
+            <div class="icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 268.832 268.832"
+              >
+                <path
+                  d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"
+                />
+              </svg>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="image-container">
-        <img class="logo-praia" src="assets/img/praia.png" alt="" />
-      </div>
-    </div>
-    <section class="about" id="about">
-      <span id="about"> </span>
-      <div class="container-about">
-        <div class="div-h1">
-          <h1 class="about-h1">
-            Com o software da DevSea,<br />
-            grandes coisas acontecem.
-          </h1>
-        </div>
-        <div class="div-p">
-          <p>
-            Nós, da DevSea, priorizamos software de qualidade e inovação para
-            todos os nossos clientes. Queremos, com nossa ajuda, que todos
-            tenham a mesma oportunidade de crescimento, independente do ramo,
-            das tecnologias envolvidas ou de quaisquer obstáculos que surjam
-            pelo caminho. Com a DevSea, todo sonho se torna realidade e toda
-            start-up se transforma em uma empresa consolidada. Seja você
-            também um DevSea's.
-          </p>
+        <div class="image-container">
+          <img class="logo-praia" src="assets/img/praia.png" alt="" />
         </div>
       </div>
-    </section>
-    <section class="section-2" id="product">
-      <h1 class="sec-title">
-        O que oferecemos<span class="interrogation">?</span>
-      </h1>
-      <p class="sec-subtitle">
-        Bom, antes de se tornar um <span class="dev-sea">DevSea's</span>, todo
-        mundo quer saber o que você vai ganhar com isso, não é mesmo? Pensando
-        nisso, decidimos criar um tópico em nosso site para explicar
-        direitinho o que acontece quando você decide se tornar nosso parceiro.
-        Vamos lá?
-      </p>
-      <div class="container_imgs-general">
-        <div class="pc">
-          <img src="assets/img/computador.png" alt="Using PC" />
-          <h1>Software</h1>
-          <p>
-            Com o software da <span class="dev-sea">DevSea</span>, seu negócio
-            se tornará organizado, profissional e eficiente. Oferecemos
-            soluções personalizadas, desde opções completas até alternativas
-            simples, de acordo com suas preferências. Na
-            <span class="dev-sea">DevSea</span>, sua criatividade é o único
-            limite.
-          </p>
+      <section class="about" id="about">
+        <span id="about"> </span>
+        <div class="container-about">
+          <div class="div-h1">
+            <h1 class="about-h1">
+              Com o software da DevSea,<br />
+              grandes coisas acontecem.
+            </h1>
+          </div>
+          <div class="div-p">
+            <p>
+              Nós, da DevSea, priorizamos software de qualidade e inovação para
+              todos os nossos clientes. Queremos, com nossa ajuda, que todos
+              tenham a mesma oportunidade de crescimento, independente do ramo,
+              das tecnologias envolvidas ou de quaisquer obstáculos que surjam
+              pelo caminho. Com a DevSea, todo sonho se torna realidade e toda
+              start-up se transforma em uma empresa consolidada. Seja você
+              também um DevSea's.
+            </p>
+          </div>
         </div>
-        <div class="atendment">
-          <img src="assets/img/telefone.png" alt="Atendment" />
-          <h1>Atendimento</h1>
-          <p>
-            Nosso atendimento é <span class="dev-sea">excepcional!</span> Com
-            uma equipe disponível de segunda a sexta-feira, das 8:00 às 18:00,
-            garantimos um suporte rápido e amigável. Na
-            <span class="dev-sea">DevSea</span>, priorizamos seu bem-estar e
-            valorizamos sua confiança. Para falar conosco,
-            <strong>clique aqui!</strong>
-          </p>
+      </section>
+      <section class="section-2" id="product">
+        <h1 class="sec-title">
+          O que oferecemos<span class="interrogation">?</span>
+        </h1>
+        <p class="sec-subtitle">
+          Bom, antes de se tornar um <span class="dev-sea">DevSea's</span>, todo
+          mundo quer saber o que você vai ganhar com isso, não é mesmo? Pensando
+          nisso, decidimos criar um tópico em nosso site para explicar
+          direitinho o que acontece quando você decide se tornar nosso parceiro.
+          Vamos lá?
+        </p>
+        <div class="container_imgs-general">
+          <div class="pc">
+            <img src="assets/img/computador.png" alt="Using PC" />
+            <h1>Software</h1>
+            <p>
+              Com o software da <span class="dev-sea">DevSea</span>, seu negócio
+              se tornará organizado, profissional e eficiente. Oferecemos
+              soluções personalizadas, desde opções completas até alternativas
+              simples, de acordo com suas preferências. Na
+              <span class="dev-sea">DevSea</span>, sua criatividade é o único
+              limite.
+            </p>
+          </div>
+          <div class="atendment">
+            <img src="assets/img/telefone.png" alt="Atendment" />
+            <h1>Atendimento</h1>
+            <p>
+              Nosso atendimento é <span class="dev-sea">excepcional!</span> Com
+              uma equipe disponível de segunda a sexta-feira, das 8:00 às 18:00,
+              garantimos um suporte rápido e amigável. Na
+              <span class="dev-sea">DevSea</span>, priorizamos seu bem-estar e
+              valorizamos sua confiança. Para falar conosco,
+              <strong>clique aqui!</strong>
+            </p>
+          </div>
+          <div class="clock">
+            <img src="assets/img/relogio.png" alt="Clock" />
+            <h1>Velocidade</h1>
+            <p>
+              Muitas empresas adotam prazos longos para entregar o software ao
+              cliente. A <span class="dev-sea">DevSea</span> discorda dessa
+              abordagem. Nosso compromisso é entregar o seu software em até
+              <strong>1 mês</strong>, seja simples ou completo. Queremos cumprir
+              essa missão com eficiência e rapidez.
+            </p>
+          </div>
+          <div class="lamp">
+            <img src="assets/img/toque.png" alt="Lamp" />
+            <h1>Inovação</h1>
+            <p>
+              Inovação é nossa marca na <span class="dev-sea">DevSea</span>.
+              Estamos sempre avançando tanto em programação quanto em
+              apresentação, atendimento e funcionalidades. Nosso foco é a
+              constante inovação, mantendo a qualidade em todos os aspectos.
+            </p>
+          </div>
         </div>
-        <div class="clock">
-          <img src="assets/img/relogio.png" alt="Clock" />
-          <h1>Velocidade</h1>
-          <p>
-            Muitas empresas adotam prazos longos para entregar o software ao
-            cliente. A <span class="dev-sea">DevSea</span> discorda dessa
-            abordagem. Nosso compromisso é entregar o seu software em até
-            <strong>1 mês</strong>, seja simples ou completo. Queremos cumprir
-            essa missão com eficiência e rapidez.
-          </p>
-        </div>
-        <div class="lamp">
-          <img src="assets/img/toque.png" alt="Lamp" />
-          <h1>Inovação</h1>
-          <p>
-            Inovação é nossa marca na <span class="dev-sea">DevSea</span>.
-            Estamos sempre avançando tanto em programação quanto em
-            apresentação, atendimento e funcionalidades. Nosso foco é a
-            constante inovação, mantendo a qualidade em todos os aspectos.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section class="section-3" id="plan">
-      <div class="container-3">
-        <div class="content-3">
-          <h1>Explore nossas opções de planos</h1>
-          <p>Na seção dos nossos planos, pensamos em algo que possa agradar qualquer tipo de empresa, seja ela pequena ou grande. Com isso, desenvolvemos diversos planos. Para visualizá-los, <strong>clique aqui</strong> ou no botão '<strong>Ver Mais</strong>' abaixo. Recomendamos especialmente o nosso tão sonhado plano <strong>PREMIUM</strong>. Sendo o mais vantajoso e completo de todo o nosso site, afirmamos sinceramente que com este plano, sua empresa irá alavancar rumo ao sucesso.</p>
+      </section>
+      <section class="section-3" id="plan">
+        <div class="container-3">
+          <div class="content-3">
+            <h1>Explore nossas opções de planos</h1>
+            <p>
+              Na seção dos nossos planos, pensamos em algo que possa agradar
+              qualquer tipo de empresa, seja ela pequena ou grande. Com isso,
+              desenvolvemos diversos planos. Para visualizá-los,
+              <strong>clique aqui</strong> ou no botão '<strong>Ver Mais</strong
+              >' abaixo. Recomendamos especialmente o nosso tão sonhado plano
+              <strong>PREMIUM</strong>. Sendo o mais vantajoso e completo de
+              todo o nosso site, afirmamos sinceramente que com este plano, sua
+              empresa irá alavancar rumo ao sucesso.
+            </p>
             <button type="button" class="btn btn-dark">Ver Mais</button>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Premium</h5>
-            <div class="card-text">
-              <span class="real">R$</span> 50
-            </div>
-            <div class="about-plan">
-              <p>Todo mês</p>
-              <p></p>
-              <p>Válido por 12 meses</p>
-            </div>
-            <a href="#" class="btn btn-primary">Benefícios</a>
           </div>
-          <div class="card-rosa">
-            <div class="imgs-rosa">
-              <div class="img-1">
-                <img src="assets/img/verifica.png" alt="checked">
-                <p>Site e aplicativo incluídos.</p>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Premium</h5>
+              <div class="card-text"><span class="real">R$</span> 50</div>
+              <div class="about-plan">
+                <p>Todo mês</p>
+                <p></p>
+                <p>Válido por 12 meses</p>
               </div>
-              <div class="img-1">
-                <img src="assets/img/verifica.png" alt="checked">
-                <p>Fidelidade de 12 meses.</p>
-              </div>
-              <div class="img-1">
-                <img src="assets/img/verifica.png" alt="checked">
-                <p>Benefício do plano</p>
-              </div>
-              <div class="img-1">
-                <img src="assets/img/verifica.png" alt="checked">
-                <p>Benefício do plano</p>
+              <a href="#" class="btn btn-primary">Benefícios</a>
+            </div>
+            <div class="card-rosa">
+              <div class="imgs-rosa">
+                <div class="img-1">
+                  <img src="assets/img/verifica.png" alt="checked" />
+                  <p>Site e aplicativo incluídos.</p>
+                </div>
+                <div class="img-1">
+                  <img src="assets/img/verifica.png" alt="checked" />
+                  <p>Fidelidade de 12 meses.</p>
+                </div>
+                <div class="img-1">
+                  <img src="assets/img/verifica.png" alt="checked" />
+                  <p>Benefício do plano</p>
+                </div>
+                <div class="img-1">
+                  <img src="assets/img/verifica.png" alt="checked" />
+                  <p>Benefício do plano</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="section-4" id="">
-      <footer>
+      </section>
+      <section class="section-4" id="contact">
+        <footer>
+          <div class="container-footer">
+            <div class="logo-container_footer">
+              <img
+                class="logo-footer"
+                src="assets/img/favicon-ds.png"
+                alt="Logo DevSea"
+              />
+              <h1>| DevSea</h1>
+            </div>
 
-      </footer>
-    </section>
-  </main>
-</body>
+            <div class="content-footer-1">
+              <h2>Localização</h2>
+              <p>
+                Av. Pres. Kennedy, 2999 - Rebouças,<br />Curitiba - PR,
+                80610-011
+              </p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.0452924871674!2d-49.28598342379673!3d-25.470163034483576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce49e3d62dbaf%3A0xddabab7af7f5c5f6!2sAv.%20Pres.%20Kennedy%2C%202999%20-%20Rebou%C3%A7as%2C%20Curitiba%20-%20PR%2C%2080610-011!5e0!3m2!1spt-BR!2sbr!4v1710559540345!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <h2 class="atendimento">Atendimento</h2>
+              <a class="email" href="mailto:contato.devsea@gmail.com"
+                >contato.devsea@gmail.com</a
+              >
+            </div>
 
+            <div class="content-footer-2">
+              <h2>Siga</h2>
+              <p>Assine para receber as novidades sobre nosso produto</p>
+              <form id="subscribe-form">
+                <label for="siga-email">Email<strong>*</strong></label><br />
+                <input type="email" id="siga-email" name="siga" required />
+                <div class="wrapper-2">
+                  <a class="cta" href="#">
+                    <span>Assinar</span>
+                    <span class="btn-contact">
+                      <svg
+                        width="66px"
+                        height="43px"
+                        viewBox="0 0 66 43"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <g
+                          id="arrow"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                          fill-rule="evenodd"
+                        >
+                          <path
+                            class="one"
+                            d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                          <path
+                            class="two"
+                            d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                          <path
+                            class="three"
+                            d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z"
+                            fill="#FFFFFF"
+                          ></path>
+                        </g>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </form>
+            </div>
+
+            <div class="content-footer-3">
+              <h2>Redes Sociais</h2>
+              <ul>
+                <!-- <li><a class="linkedin" href="#">Linkedin</a></li>
+                <li><a class="youtube" href="#">Youtube</a></li> -->
+                <li><a class="instagram" href="https://www.instagram.com/devsealab/">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </main>
+    <span class="bot">
+      <p>© 2024 por DevSea. Orgulhosamente criado por <em><a target="_blank" href="https://github.com/muriloLuix">@muriloLuix</a></em></p>
+    </span>
+  </body>
 </html>
