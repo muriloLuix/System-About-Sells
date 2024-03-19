@@ -5,4 +5,3 @@ document.addEventListener("DOMContentLoaded", function () {
         whatsappIcon.style.right = '20px';
     }, 500);
 });
-

@@ -18,6 +18,7 @@
     <script src="assets/js/animation.js" defer></script>
     <script src="assets/js/tab.js" defer></script>
     <script src="assets/js/menu.js" defer></script>
+    <script src="assets/js/popUp.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
@@ -38,7 +39,7 @@
     <header>
       <nav class="menu-desktop">
         <div class="logo-container">
-          <img class="logo" src="assets/img/devsea-logo.png" alt="Logo" />
+          <img class="logo" src="assets/img/DEVSEA1.png" alt="Logo" />
         </div>
         <div class="menu-container">
           <div class="menu-item"><a href="#">Início</a></div>
@@ -202,21 +203,21 @@
               todo o nosso site, afirmamos sinceramente que com este plano, sua
               empresa irá alavancar rumo ao sucesso.
             </p>
-            <button type="button" class="btn btn-dark">Ver Mais</button>
+            <a target="_blank" href="planos.html"><button type="button" class="btn btn-dark">Ver Mais</button></a>
           </div>
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Premium</h5>
-              <div class="card-text"><span class="real">R$</span> 50</div>
+              <div class="card-text"><span class="real">R$</span> 120</div>
               <div class="about-plan">
                 <p>Todo mês</p>
                 <p></p>
                 <p>Válido por 12 meses</p>
               </div>
-              <a href="#" class="btn btn-primary">Benefícios</a>
+              <a href="#" class="btn btn-primaryPlanos">Sobre o plano</a>
             </div>
             <div class="card-rosa">
-              <div class="imgs-rosa">
+              <div class="imgs-rosaPlanos">
                 <div class="img-1">
                   <img src="assets/img/verifica.png" alt="checked" />
                   <p>Site e aplicativo incluídos.</p>
@@ -227,11 +228,11 @@
                 </div>
                 <div class="img-1">
                   <img src="assets/img/verifica.png" alt="checked" />
-                  <p>Benefício do plano</p>
+                  <p>Suporte prioritário.</p>
                 </div>
                 <div class="img-1">
                   <img src="assets/img/verifica.png" alt="checked" />
-                  <p>Benefício do plano</p>
+                  <p>Customização de novos itens.</p>
                 </div>
               </div>
             </div>
@@ -272,14 +273,16 @@
             </div>
 
             <div class="content-footer-2">
-              <h2>Siga</h2>
-              <p>Assine para receber as novidades sobre nosso produto</p>
+              <h2>Receber Novidades</h2>
+              <p>Assine para receber as novidades sobre nossos produtos.</p>
               <form id="subscribe-form">
                 <label for="siga-email">Email<strong>*</strong></label><br />
-                <input type="email" id="siga-email" name="siga" required />
+                <input type="email" id="siga-email" name="siga" required autocomplete="off"/>
                 <div class="wrapper-2">
-                  <a class="cta" href="#">
-                    <span>Assinar</span>
+                  <a class="cta">
+                    <button class="assinar" onclick="popUp()">
+                      <span>Assinar</span>
+                    </button>
                     <span class="btn-contact">
                       <svg
                         width="66px"
@@ -317,6 +320,7 @@
                   </a>
                 </div>
               </form>
+              
             </div>
 
             <div class="content-footer-3">
@@ -324,7 +328,7 @@
               <ul class="social-media">
                 <!-- <li><a class="linkedin" href="#">Linkedin</a></li>
                 <li><a class="youtube" href="#">Youtube</a></li> -->
-                <li><a class="instagram" href="https://www.instagram.com/devsealab/">Instagram</a></li>
+                <li><a target="_blank" class="instagram" href="https://www.instagram.com/devsealab/">Instagram</a></li>
               </ul>
             </div>
           </div>
