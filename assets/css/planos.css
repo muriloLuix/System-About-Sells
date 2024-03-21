@@ -416,7 +416,7 @@ body {
   transition: opacity 2s ease;
 }
 
-@media screen and (max-width: 1130px){
+@media screen and (max-width: 1000px){
   .row {
     display: none;
   }
