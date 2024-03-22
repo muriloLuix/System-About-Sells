@@ -6,4 +6,5 @@ function trocarImagem() {
     } else if (imagem.src.includes("back-1.png")) {
         imagem.src = "assets/img/front-1.jpg";
     }
+    
 }
