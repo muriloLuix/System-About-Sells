@@ -417,7 +417,7 @@ body {
 
 @media screen and (max-width: 1000px) {
   .row {
-    display: block;
+    display: none;
   }
   #carouselExample {
     display: block;
@@ -478,5 +478,13 @@ body {
   .card:target .card__side--back {
     -webkit-transform: rotateY(0);
     transform: rotateY(0);
+  }
+
+  .card__side{
+    width: 75%;
+    margin-left: 3.9rem;
+  }
+  .card__details{
+    padding: 0;
   }
 }
