@@ -420,7 +420,7 @@ body {
 
 .popup,
 .popup2,
-.popup3 {
+.popup3{
   display: none;
   position: fixed;
   top: 20%;
