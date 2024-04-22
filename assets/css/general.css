@@ -80,7 +80,26 @@ main {
   overflow: hidden;
   max-width: 100%;
 }
+
+.bodyWhite{
+  background-color: #fff;
+}
+
+.bodyDark{
+  background-color: #333333;
+  color: #fff;
+}
+
+
 /* Header Styles */
+
+.headerWhite{
+  background-color: #fff;
+}
+
+.headerDark{
+  background-color: #333333;
+}
 
 .menu-desktop {
   display: -webkit-flex;
