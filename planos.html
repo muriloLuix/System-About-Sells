@@ -59,7 +59,8 @@
                   <p class="card__price-value">R$59,99</p>
                   <p class="card__price-only">Por mês</p>
                 </div>
-                <a href="#popup-basic" class="btn btn--white" onclick="togglePopup('popup-basic')">Adquirir Plano</a>
+                <a href="#popup-basic" class="btn btn--white" onclick="togglePopup('popup-basic', 'overlay')">Adquirir Plano</a>
+
               </div>
             </div>
           </div>
@@ -101,7 +102,8 @@
                   <p class="card__price-value">R$89,99</p>
                   <p class="card__price-only">Por mês</p>
                 </div>
-                <a href="#popup-plus" class="btn btn--white" onclick="togglePopup('popup-plus')">Adquirir Plano</a>
+                <a href="#popup-plus" class="btn btn--white" onclick="togglePopup('popup-plus', 'overlay')">Adquirir Plano</a>
+
               </div>
             </div>
           </div>
@@ -143,8 +145,8 @@
                   <p class="card__price-value">R$119.99</p>
                   <p class="card__price-only">Por mês</p>
                 </div>
-                <a href="#popup-premium" class="btn btn--white" onclick="togglePopup('popup-premium')">Adquirir
-                  Plano</a>
+                <a href="#popup-premium" class="btn btn--white" onclick="togglePopup('popup-premium', 'overlay')">Adquirir Plano</a>
+
               </div>
             </div>
           </div>
@@ -190,12 +192,23 @@
                       <p class="card__price-value">R$59,99</p>
                       <p class="card__price-only">Por mês</p>
                     </div>
-                    <a href="#popup-basic" class="btn btn--white" onclick="togglePopup('popup-basic')">Adquirir Plano</a>
+                    <a href="#popup-basic-carousel" class="btn btn--white" onclick="togglePopup('popup-basic-carousel', 'overlay-basic-carousel')">Adquirir Plano</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="popup" id="popup-basic-carousel">
+            <h1>Plano Básico!</h1>
+            <p>Muito obrigado por escolher nosso <strong>Plano Básico</strong>! Para mais informações e contrato, por
+              favor. <a
+                href="https://api.whatsapp.com/send?phone=5541995402028&text=Ol%C3%A1!%20Adquiri%20o%20plano%20b%C3%A1sico%20da%20Dev%20Sea.%20E%20gostaria%20de%20conversar%20como%20proceder%20para%20realiza%C3%A7%C3%A3o!%20"
+                target="_blank">Clique aqui</a>!</p>
+            <button onclick="togglePopup('popup-basic')" class="btnClose">Fechar</button>
+          </div>
+          <div class="overlay" id="overlay-carousel" onclick="togglePopup('popup-basic-carousel')"></div>
+
           <div class="carousel-item">
             <div class="col-1-of-3">
               <div class="card">
@@ -222,12 +235,23 @@
                       <p class="card__price-value">R$89,99</p>
                       <p class="card__price-only">Por mês</p>
                     </div>
-                    <a href="#popup-plus" class="btn btn--white" onclick="togglePopup('popup-plus')">Adquirir Plano</a>
+                    <a href="#popup-plus-carousel" class="btn btn--white" onclick="togglePopup('popup-plus-carousel', 'overlay-plus-carousel')">Adquirir Plano</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="popup" id="popup-plus-carousel">
+            <h1>Plano Básico!</h1>
+            <p>Muito obrigado por escolher nosso <strong>Plano Básico</strong>! Para mais informações e contrato, por
+              favor. <a
+                href="https://api.whatsapp.com/send?phone=5541995402028&text=Ol%C3%A1!%20Adquiri%20o%20plano%20b%C3%A1sico%20da%20Dev%20Sea.%20E%20gostaria%20de%20conversar%20como%20proceder%20para%20realiza%C3%A7%C3%A3o!%20"
+                target="_blank">Clique aqui</a>!</p>
+            <button onclick="togglePopup('popup-basic')" class="btnClose">Fechar</button>
+          </div>
+          <div class="overlay" id="overlay-carousel" onclick="togglePopup('popup-plus-carousel')"></div>
+
           <div class="carousel-item">
             <div class="col-1-of-3">
               <div class="card">
@@ -254,13 +278,23 @@
                       <p class="card__price-value">R$119.99</p>
                       <p class="card__price-only">Por mês</p>
                     </div>
-                    <a href="#popup-premium" class="btn btn--white" onclick="togglePopup('popup-premium')">Adquirir
-                      Plano</a>
+                    <a href="#popup-premium-carousel" class="btn btn--white" onclick="togglePopup('popup-premium-carousel', 'overlay-premium-carousel')">Adquirir Plano</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+          <div class="popup" id="popup-premium-carousel">
+            <h1>Plano Básico!</h1>
+            <p>Muito obrigado por escolher nosso <strong>Plano Básico</strong>! Para mais informações e contrato, por
+              favor. <a
+                href="https://api.whatsapp.com/send?phone=5541995402028&text=Ol%C3%A1!%20Adquiri%20o%20plano%20b%C3%A1sico%20da%20Dev%20Sea.%20E%20gostaria%20de%20conversar%20como%20proceder%20para%20realiza%C3%A7%C3%A3o!%20"
+                target="_blank">Clique aqui</a>!</p>
+            <button onclick="togglePopup('popup-basic')" class="btnClose">Fechar</button>
+          </div>
+          <div class="overlay" id="overlay-carousel" onclick="togglePopup('popup-premium-carousel')"></div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -164,11 +163,13 @@ body {
 }
 
 .btn--green {
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(#fc466b),
-      to(#3f5efb));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#fc466b),
+    to(#3f5efb)
+  );
   background-image: linear-gradient(to bottom right, #15174e, #76fafa);
 
   color: #fff;
@@ -420,7 +421,7 @@ body {
 
 .popup,
 .popup2,
-.popup3{
+.popup3 {
   display: none;
   position: fixed;
   top: 20%;
@@ -429,16 +430,17 @@ body {
   background-color: #fff;
   padding: 40px;
   border: 1px solid #000;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   z-index: 9999;
   width: 32%;
-  max-width: 800px; 
-  max-height: 80%; 
-  overflow-y: auto; 
+  max-width: 800px;
+  max-height: 80%;
+  overflow-y: auto;
   border-radius: 20px;
 }
 
-.btnClose{
+.btnClose {
   margin: 0 auto;
   display: flex;
   text-align: center;
@@ -450,22 +452,21 @@ body {
   border-radius: 15px;
   margin-top: 6%;
   padding: 2%;
-  background-color: #1F2D73;
+  background-color: #1f2d73;
   color: #fff;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  transition: .3s;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.3s;
 }
 
-.btnClose:hover{
+.btnClose:hover {
   transform: scale(1.09);
-
 }
-
 
 .popup h1,
 .popup2 h1,
-.popup3 h1{
+.popup3 h1 {
   text-align: center;
   color: #000;
   text-transform: uppercase;
@@ -475,7 +476,7 @@ body {
 
 .popup p,
 .popup2 p,
-.popup3 p{
+.popup3 p {
   text-align: center;
   color: #000;
   font-size: 1.5rem;
@@ -568,5 +569,11 @@ body {
 
   .card__details {
     padding: 0;
+  }
+
+  .popup,
+  .popup2,
+  .popup3 {
+    width: 95%;
   }
 }
