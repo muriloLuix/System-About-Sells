@@ -477,36 +477,37 @@ body {
   text-decoration: none;
 }
 
-.footer{
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.footer button{
+.footer a.button {
   padding: 5px 2%;
   text-transform: uppercase;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: #fff;
   border: 1px solid #2ECC71;
   color: #2ECC71;
   font-weight: 400;
   font-size: 1.2rem;
   transition: all .3s ease;
-}
-
-.footer a{
   text-decoration: none;
-  color: #2ECC71;
-  padding: 5% 5%;
 }
 
-
-.footer button:hover{
+.footer a.button:hover {
   background-color: #2ECC71;
   color: #fff;
 }
 
-.footer a:hover{
-  color: #fff;
+@media (max-width: 990px){
+  .footer{
+    margin-bottom: 4%;
+  }
+
+  .footer a.button {
+    padding: 10px 12%;
+    border-radius: 25px;
+  }
 }
